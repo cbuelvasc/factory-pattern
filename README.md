@@ -6,6 +6,12 @@ The Factory method pattern (or simply, Factory) is probably the second-best know
 
 For our example, we are going to implement a device inventory with the Factory method, which will provide us with different ways to categorize the devices in a store inventory. At first, we will have two methods to categorize the devices. We will also have an interface with the methods, Brand, and Stock, with their respective getters and setters that each structure that wants to use a device must implement.
 
+## Running the client
+
+```sh
+go run main.com
+```
+
 ## Unit Tests
 
 The next commands should be execute inside the folder named devices.
